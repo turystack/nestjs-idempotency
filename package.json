@@ -2,7 +2,7 @@
 	"name": "@turystack/nestjs-idempotency",
 	"description": "Idempotency keys for repeatable requests and redeliverable events, built on @turystack/nestjs-cache storage and @turystack/nestjs-lock mutual exclusion.",
 	"private": false,
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "module",
 	"sideEffects": false,
 	"main": "./dist/index.js",
@@ -44,9 +44,9 @@
 		"@nestjs/core": "^11.0.0",
 		"@turystack/exceptions": "^1.0.0",
 		"@turystack/nestjs-cache": "^1.0.0",
+		"@turystack/nestjs-config": "^1.0.0",
 		"@turystack/nestjs-lock": "^1.0.0",
-		"reflect-metadata": "^0.2.0",
-		"@turystack/nestjs-config": "^1.0.0"
+		"reflect-metadata": "^0.2.0"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.5.4",
@@ -55,6 +55,7 @@
 		"@nestjs/testing": "^11.0.0",
 		"@turystack/exceptions": "^1.0.0",
 		"@turystack/nestjs-cache": "^1.0.0",
+		"@turystack/nestjs-config": "^1.0.0",
 		"@turystack/nestjs-lock": "^1.0.0",
 		"@types/node": "^25.5.0",
 		"@vitest/coverage-v8": "^4.1.10",
@@ -63,7 +64,6 @@
 		"typescript": "^7.0.2",
 		"vite": "^8.1.5",
 		"vitest": "^4.1.10",
-		"@turystack/nestjs-config": "^1.0.0",
 		"zod": "^4.0.0"
 	}
 }
