@@ -2,7 +2,7 @@
 	"name": "@turystack/nestjs-idempotency",
 	"description": "Idempotency keys for repeatable requests and redeliverable events, built on @turystack/nestjs-cache storage and @turystack/nestjs-lock mutual exclusion.",
 	"private": false,
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"type": "module",
 	"packageManager": "pnpm@10.12.3",
 	"sideEffects": false,
